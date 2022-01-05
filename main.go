@@ -23,7 +23,7 @@ func main(){
 	
 
 	// delete a key,e.g "four" 
-	delete(intMap,"four")
+	// delete(intMap,"four")
 
 	el,ok:=intMap["four"]
 	if ok{
