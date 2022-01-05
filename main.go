@@ -25,10 +25,11 @@ func main(){
 	// delete a key,e.g "four" 
 	delete(intMap,"four")
 
-	for key,value:= range intMap{
-		// maps are not sorted even we put sorted
-		// info in them
-		fmt.Println(key,value)
+	el,ok:=intMap["four"]
+	if ok{
+		fmt.Println(el, "is in map")
+	} else {
+		fmt.Println(el, "is not in map")
 	}
 
 }
