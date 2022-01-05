@@ -12,6 +12,7 @@ func main(){
 
 }
 
-func addTwoNumber(x, y int) int {
-	return x+y
+func addTwoNumber(x, y int) (sum int) {
+	sum = x+y
+	return
 }
