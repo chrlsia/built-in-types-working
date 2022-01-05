@@ -32,4 +32,7 @@ func main(){
 		fmt.Println(el, "is not in map")
 	}
 
+	// change the value of a given key
+	intMap["two"]=4
+
 }
